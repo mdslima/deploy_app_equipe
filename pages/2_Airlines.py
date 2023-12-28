@@ -23,7 +23,7 @@ dados = pd.read_csv(path)
 #caminho_arquivo = "C:/Users/mdsli/OneDrive/Área de Trabalho/STREAMLIT/recursos/modelo-previsao-delay-airframe.pkl"
 
 # Carregar o modelo
-modelo = joblib.load("https://github.com/mdslima/deploy_app_equipe/blob/main/recursos/modelo-previsao-delay-airframe.pkl")
+modelo = joblib.load('recursos/modelo-previsao-delay-airframe')
 
 
 # URL da imagem de exemplo
