@@ -14,7 +14,7 @@ from pycaret.regression import load_model, predict_model
 from pycaret.datasets import get_data
 
  #Caminho para o arquivo
-path = r"Airframe .csv"
+path = r"https://github.com/mdslima/deploy_app_equipe/Airframe.csv"
 
 # Ler csv
 dados = pd.read_csv(path)
