@@ -14,10 +14,10 @@ from pycaret.regression import load_model, predict_model
 from pycaret.datasets import get_data
 
  #Caminho para o arquivo
-#path = 'https://github.com/mdslima/deploy_app_equipe/blob/main/Airframe%20.csv'
+path = r'https://github.com/mdslima/deploy_app_equipe/blob/main/Airframe%20.csv'
 
 # Ler csv
-#dados = pd.read_csv(path)
+dados = pd.read_csv(path)
 
 # Define o caminho do arquivo
 #caminho_arquivo = "C:/Users/mdsli/OneDrive/Área de Trabalho/STREAMLIT/recursos/modelo-previsao-delay-airframe.pkl"
