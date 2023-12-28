@@ -5,8 +5,6 @@ from datetime import datetime
 from fpdf import FPDF
 from reportlab.pdfgen import canvas
 import yfinance as yf
-import io
-import base64
 
 st.title("stock market app")
 st.write('Bem-vindo ao assistente pessoal para dúvidas sobre o mercado de ações.')
