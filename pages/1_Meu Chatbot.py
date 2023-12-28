@@ -3,7 +3,7 @@ from openai import OpenAI
 import pandas as pd
 from datetime import datetime
 from fpdf import FPDF
-from reportlab.pdfgen import canvas
+
 
 
 st.title("stock market app")
