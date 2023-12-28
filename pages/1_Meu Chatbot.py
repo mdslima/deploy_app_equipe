@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 from fpdf import FPDF
 from reportlab.pdfgen import canvas
-import yfinance as yf
+
 
 st.title("stock market app")
 st.write('Bem-vindo ao assistente pessoal para dúvidas sobre o mercado de ações.')
