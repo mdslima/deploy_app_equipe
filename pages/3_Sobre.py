@@ -17,6 +17,12 @@ def mostrar_descricoes():
     st.write("""
     Este módulo permite através da escolha de certos parametros, definir a probabilidade de um determinado vôo atrasar ou não.
     """)
+
+
+    st.write("""
+    Este aplicativo foi elaborado em conjunto por Jucimar Cerqueira dos Santos e Marcelo da Silva Lima com o objetivo de servir como avaliação da Materia Machine
+    Learn - Hands On.
+    """)
     
         # Chamada da função para mostrar as descrições
 mostrar_descricoes()
