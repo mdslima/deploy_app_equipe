@@ -21,7 +21,7 @@ def mostrar_descricoes():
     st.header("Autores do Aplicativo")
 
     st.write("""
-    Este aplicativo foi elaborado em conjunto por Jucimar Cerqueira dos Santos e Marcelo da Silva Lima com o objetivo de servir como avaliação da Materia Machine
+    Este aplicativo foi elaborado em conjunto por Jucimar Cerqueira dos Santos e Marcelo da Silva Lima com o objetivo de servir como avaliação da Matéria Machine
     Learn - Hands On.
     """)
     
