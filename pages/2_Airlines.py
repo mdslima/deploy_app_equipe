@@ -91,7 +91,7 @@ st.write(prever)
 _, c1, _ = st.columns([2,3,1])
 
 with c1:
-	botao = st.button('Calcular Previsão de atraso',
+	botao = st.button('Calcular Previsão',
 		type = 'primary',
 		use_container_width = True)
         
