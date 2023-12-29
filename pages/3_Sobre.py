@@ -18,6 +18,7 @@ def mostrar_descricoes():
     Este módulo permite através da escolha de certos parametros, definir a probabilidade de um determinado vôo atrasar ou não.
     """)
 
+    st.header("Autores do Aplicativo")
 
     st.write("""
     Este aplicativo foi elaborado em conjunto por Jucimar Cerqueira dos Santos e Marcelo da Silva Lima com o objetivo de servir como avaliação da Materia Machine
