@@ -91,18 +91,16 @@ st.write(prever)
 _, c1, _ = st.columns([2,3,1])
 
 with c1:
-	botao = st.button('Calcular Previsão',
-		type = 'primary',
-		use_container_width = True)
+	botao = st.button('Calcular Previsão',	type = 'primary', use_container_width = True)
         
 if botao:
 	previsao = predict_model(modelo, data = prever)
 	valor = round(previsao.loc[0,'prediction_label'])
     
-if valor == 0:
-    st.write('### A previsão para o vôo é Atraso')
-elif valor == 1:
-    st.write('### A previsão para o vôo é No Horário')
+	if valor == 0:
+    		st.write('### A previsão para o vôo é Atraso')
+	elif valor == 1:
+    		st.write('### A previsão para o vôo é No Horário')
 
 
         
